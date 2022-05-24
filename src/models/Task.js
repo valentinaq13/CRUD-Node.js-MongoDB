@@ -1,9 +1,22 @@
 import { Schema, model } from "mongoose"; //schema son los nombres de los campos, model el nombre de la tabla
 
-const task= new Schema({
-title: String,
-description: String,
-done: Boolean,
+const taskSchema= new Schema({
+title: {
+    type: String,
+    required: true,
+    unique: true,
+    trim: true
+},
+description: {
+    type: String,
+    required:true
+},
+done:{
+    type: Boolean,
+    default: false
+}
 }, {
     timestamps: true
 })
+
+export default model("Task", taskSchema)
