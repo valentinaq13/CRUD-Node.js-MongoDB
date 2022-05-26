@@ -23,7 +23,10 @@ app.use(express.urlencoded({ extended: false})); //para pasar el req.body del fo
 
 
 //Routes
-app.use(indexRoutes)
+app.use(indexRoutes);
+
+//static files: aca express sabe que desde el browser, se puede leer todo lo que de la carpeta public.
+app.use(express.static(path.join(__dirname, "public")));
 
 
 export default app
