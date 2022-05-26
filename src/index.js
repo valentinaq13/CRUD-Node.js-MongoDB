@@ -1,6 +1,7 @@
+
 import app from "./app";
-import "./database"
+import "./database";
+import {PORT} from "./config";
 
-
-app.listen(3000)
-console.log("server on port", 3000)
+app.listen(PORT)
+console.log("server on port", PORT)
