@@ -1,5 +1,5 @@
 {
-  "name": "foodorderingapp",
+  "name": "crudnodemongodb",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valentinaq13/FoodOrderingApp.git"
+    "url": "git+https://github.com/valentinaq13/CRUD-Node.js-MongoDB.git"
   },
   "keywords": [],
   "author": "ValentinaQuiroga",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/valentinaq13/FoodOrderingApp/issues"
+    "url": "https://github.com/valentinaq13/CRUD-Node.js-MongoDB/issues"
   },
-  "homepage": "https://github.com/valentinaq13/FoodOrderingApp#readme",
+  "homepage": "https://github.com/valentinaq13/CRUD-Node.js-MongoDB#readme",
   "dependencies": {
     "@babel/runtime": "^7.18.3",
     "dotenv": "^16.0.1",
