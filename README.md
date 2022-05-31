@@ -2,7 +2,7 @@
 
 <h1>CRUD-Node.js-MongoDB(Create, Read, Update, Delete)</h1>
 
-<h2>Adicionalmente de algunos modulos o paquetes de Nodejs como 
+<h2>Adicionalmente utilicé modulos o paquetes de Nodejs como 
 Express, 
 Handlebars, 
 Babel,
